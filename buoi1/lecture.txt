@@ -1,0 +1,15 @@
+1.Environment
+2.Window command
+- dir: list file in current directory
+- copy: copy a file
+- move: move a file
+- ren: rename file
+- del: delete
+- mkdir: create example: mkdir 
+- cls: clear
+- find: search a string in a file
+- exit
+- cd: chande directory
+- echo a string: example: echo "hello world" hoac echo "content" > name_file
+
+để chạy file bằng CLI thì name_file ./run.bat
