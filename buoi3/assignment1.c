@@ -12,5 +12,6 @@ int main(){
     }
     int *b;
     printf("dia chi cua b: %d", &b);
+    int x = 4000000000000000;
     return 0; 
 }

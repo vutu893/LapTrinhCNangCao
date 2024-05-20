@@ -1,0 +1,9 @@
+- biến tạo ra ở hàm main có địa chỉ ô nhớ khác với các biến được khởi tạo ở tham số của function. Khi ta truyền function(var a, var b) là truyền 
+giá trị a, b  vào hai ô nhớ ở function cho nên sẽ không làm thay đổi giá trị ở hàm main vì giá trị của ô nhớ trong main không bị tác động.(khi 
+khởi tạo hàm thì sẽ các biến trong hàm sẽ có địa chỉ riêng khác với các biến trong main).
+- địa chỉ của biến có kiểu dữ liệu(con trỏ) giống với kiểu dữ liệu khởi tạo cho biến.
+- & toán tử lấy địa chỉ
+- * toán tử lấy giá trị trong ô nhớ (* chỉ đứng trước một con trỏ)
+- khai báo con trỏ: data_type* name_value = &a_value
+- địa chỉ là một số nguyên nhưng lại có cách khai báo riêng
+- có thể định dạng giá trị của con trỏ bằng cách thay đổi kiểu dữ liệu thay vì int: char* x, float* x, ....
