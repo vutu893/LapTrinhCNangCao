@@ -1,0 +1,1 @@
+Nên commit nhiều lần trong một dự án khi hoàn thành một chức năng công việc nào đó
