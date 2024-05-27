@@ -13,6 +13,7 @@
 //typedef la de dinh nghia lai mot kieu du lie
 //typedef int new_name
 //cau truc rut gon cua khai bao struct
+//struct tao kieu du lieu khac nhau
 typedef struct {
     char name[50];
     int age;
@@ -20,7 +21,7 @@ typedef struct {
 } student_t;
 
 
-//enum: dung de phan loai cac kieu du lieu
+//enum: dung de phan loai cac kieu du lieu, luu hang so la so nguyen
 typedef enum {
     BWM,
     HONDA,
