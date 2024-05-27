@@ -12,13 +12,13 @@ void display_caculator(){
 }
 
 long long addition(int a, int b){
-    return a + b;
+    return 1ll*(a + b);
 }
-int subtraction(int a, int b){
-    return a - b;
+long long subtraction(int a, int b){
+    return 1ll * (a - b);
 }
 long long multiption(int a, int b){
-    return a * b;
+    return 1ll * a * b;
 }
 int divive(int a, int b){
     return 1.0 * a /b;
@@ -45,11 +45,11 @@ int main(){
         scanf("%d %d", &a, &b);
         if(n == 1){
             int sum = addition(a, b);
-            printf("Tong cua hai so la: %d\n", sum);
+            printf("Tong cua hai so la: %lld\n", sum);
         }
         if(n == 2){
             int sub = subtraction(a, b);
-            printf("Hieu cua hai so la: %d\n", sub);
+            printf("Hieu cua hai so la: %lld\n", sub);
         }
         if(n == 3){
             long long mul = multiption(a, b);
@@ -61,7 +61,7 @@ int main(){
         }
         if(n == 5){
             int gcd_val = gcd(a, b);
-            printf("Uoc chung lon nhat la: %d", gcd_val);
+            printf("Uoc chung lon nhat la: %d\n", gcd_val);
         }
     }
     return 0;
